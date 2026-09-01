@@ -1,56 +1,185 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Seokchae Yoon"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a Ph.D. candidate in Management Engineering (Information Systems) at the KAIST College of Business, advised by Professor Wonseok Oh. I expect to complete my degree in 2027, and I am on the job market this year.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research asks when AI-generated information can be trusted, and what that trust is worth to the individuals, professionals, and firms that act on it. My dissertation pursues this question in healthcare, from smartphone-based mental health screening to AI underwriting in insurance markets. I carry the same lens into digital platforms and retail, building the model each setting requires.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**Research areas.** Healthcare IT, algorithmic decision-making, platform economics.
+**Methods.** Deep learning, econometrics and causal inference, Bayesian statistics and machine learning.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Job Market Paper
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+**Screening Mental Health with Smartphones: Understanding Real-World Noise in Smartphone-Generated Physiological Data**
+Yoon, S., Oh, J., & Oh, W.
+*Under review at MIS Quarterly.* To be presented at CIST 2026.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Develops a biodynamics-guided deep learning framework for smartphone-based depression screening that quantifies real-world measurement noise through deep-ensemble uncertainty estimation, addressing the reliability problem that limits consumer-grade digital biomarkers.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Research
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### Dissertation
 
-**Markdown generator**
+**When AI Enters the Healthcare Information Environment: Sensing, Treatment, and Markets**
+Committee Chair: Professor Wonseok Oh. Proposal defended May 2026.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+The dissertation examines what happens when AI relaxes long-standing information constraints in healthcare, across three essays spanning physiological screening, behavioral treatment delivery, and risk-based market design. It argues that the value of AI-generated health information is not fixed, but depends on the reliability of the information the AI produces, the mechanism through which it reaches individuals, and the market structure it enters.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**Essay 1 (Job Market Paper).** Screening Mental Health with Smartphones: Understanding Real-World Noise in Smartphone-Generated Physiological Data. *Under review at MIS Quarterly.*
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+**Essay 2.** Engaging for Better Sleep: User Interaction and Behavioral Change in a Mobile App-Based Digital Therapeutic for Insomnia. An RCT-based evaluation of a CBT-I digital therapeutic. *Presented at CIST 2025; in preparation for journal submission.*
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Essay 3.** AI Underwriting in Health Insurance: Model Development and Market Consequences. Develops an AI underwriting model and tests a human-AI decision delegation design (Always Rule / Selective AI / Always AI) through a pre-registered field experiment, in collaboration with KB Life. *Under review, WISE 2026; pre-registered field experiment forthcoming.*
+
+### Publications
+
+Kim, J., **Yoon, S.**, Chung, S., & Oh, W. (2025). Working Daily, Paid Monthly? Effects of On-Demand Wage Access on the Financial Engagement of Low-Wage Workers. *Information Systems Research.*
+
+### Working Papers
+
+Kim, K., **Yoon, S.**, Kwon, H.E., & Oh, W. Rational App Curation: A Portfolio-Theoretic View of Mobile App Adoption and Churn. *Preparing submission to Information Systems Research.*
+
+Kim, J., **Yoon, S.**, Ghose, A., & Oh, W. Beyond Efficiency: The Impact of Self-Order Kiosk Adoption on Demand Variety. *Preparing submission to Production and Operations Management.*
+
+Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. *Conditionally accepted, ICIS 2026; preparing submission to Management Science.*
+
+Park, J., **Yoon, S.**, Shin, D., & Cho, D. When Does a Pickup Become a Commitment? Dynamic Decision Boundaries and Temporal Graph Learning in Cashierless Retail Stores. *Under review, WITS 2026; preparing submission to Manufacturing & Service Operations Management.*
+
+Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Under review, WITS 2026; preparing submission to Journal of Marketing.*
+
+Bhak, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Leveraging Preference Structure from LLM-Generated Choices: A Scale-Adjusted Pooling Approach. *Under review, WITS 2026; preparing submission to Information Systems Research.*
+
+### Conference Presentations
+
+Kim, K., Kang, H., Lee, D., Lee, G., Park, J., & **Yoon, S.** Unintended Consequences of Algorithmic Management: Evidence from Automatic Matching Systems in Ride-Hailing Platforms. **PACIS 2026.**
+
+Kang, H., Kim, K., **Yoon, S.**, Lee, G., & Lee, D. Non-Punitive Governance in Algorithmic Markets: The Role of Tag-Based Feedback in Ride-Hailing. **WISE 2025.**
+
+**Yoon, S.**, Ko, S.G., & Oh, W. Engaging for Better Sleep: User Interaction and Behavioral Change in a Mobile App-Based Digital Therapeutic for Insomnia. **CIST 2025.**
+
+Kim, J., & **Yoon, S.** Could Self-Order Kiosks Drive Unequal Demand Trends? An Analysis of How Kiosks Influence Stores and Demand Variety. **WISE 2024.**
+
+Heo, W., **Yoon, S.**, Han, S.P., & Oh, W. When the Human-Algorithm Voice Connection Fails: Effects of Attribution Responses on User Engagement with AI-Enabled Smart Speakers. **CIST 2023.**
+
+Kim, J., **Yoon, S.**, & Chung, S. Working Daily, Paid Monthly? Effects of On-Demand Earned Wage Access on the Financial Well-Being of Low-Wage Workers. **CIST 2023.**
+
+### Industry and Data Partnerships
+
+**KB Life Insurance**, a life insurer under KB Financial Group (2026 to present). Development of an AI underwriting model and a pre-registered field experiment on human-AI decision delegation.
+
+**Kakao Mobility**, Korea's dominant ride-hailing platform (2024). Data value assessment for platform-generated matching data, drawing on approximately 48 million driver-passenger match attempts. Informs the *What Algorithms Leave Behind* working paper.
+
+**Shinhan Card**, one of Korea's largest credit card companies (2023). AI-based call center service improvement.
+
+## Teaching
+
+### Instructor
+
+**Big Data Programming I**, Department of Big Data Applications, Kyung Hee University. Spring 2026.
+Introductory Python programming course. Teaching evaluation: 94.67 / 100 (department average 94.49).
+
+### Corporate and Executive Education
+
+**Vibe Coding (AI-Assisted Software Development) and Deep Learning.** Kia Corporation, an automaker under Hyundai Motor Group. 2026.
+
+**Machine Learning and Deep Learning for the Insurance Industry.** Heungkuk Life Insurance. 2025.
+
+**Causal Machine Learning.** TMAP Mobility, Korea's leading navigation and mobility platform. 2023.
+
+**Machine Learning and Deep Learning.** Samsung Electro-Mechanics, an electronic-components affiliate of Samsung Group. 2022.
+
+**Machine Learning.** Hyundai Motor Group. 2021.
+
+**Machine Learning.** LG Group. 2021.
+
+### Guest Lectures
+
+**Large language models.** Kyung Hee University, Fall 2025.
+
+**Agentic AI.** Kyung Hee University, Spring 2025.
+
+**Difference-in-differences methodology.** Digital and Platform Business (MBA), KAIST College of Business, Fall 2023.
+
+**Korea's economic development.** Korean Society and Culture, an International MBA course for students from South America, Africa, the Middle East, and Southeast Asia, KAIST College of Business, Fall 2022.
+
+### Teaching Assistant
+
+**AI-Driven Business Evolution**, KAIST College of Business. Spring 2026.
+Co-designed the syllabus and evaluation rubrics for a course in which students build agentic AI and LLM-based MVP web or mobile services. Conducted business-viability review and feedback.
+
+**Cloud Computing and Unstructured Data Analytics**, KAIST College of Business. Spring 2023.
+Supported student projects on AWS-based collection and analysis of unstructured text data.
+
+### Curriculum Development
+
+**Math Camp and AI Camp**, KAIST College of Business. 2024.
+Designed and delivered both curricula for incoming graduate students.
+
+## Background
+
+### Education
+
+**Ph.D. in Management Engineering (Information Systems Track)**
+KAIST College of Business, Seoul, Korea. Mar. 2022 to expected 2027.
+Advisor: Professor Wonseok Oh. Dissertation proposal defended May 2026.
+
+**M.A. in Business Administration (Marketing)**
+Korea University Business School, Seoul, Korea. Mar. 2017 to Aug. 2019.
+Thesis: "Exploring Mechanism of Marriage Decision: Hierarchical Bayesian Approach."
+Awards: Best Thesis Proposal Award; Best English Thesis Award.
+
+**B.A. in Business Administration**
+Korea University, Seoul, Korea. Mar. 2009 to Aug. 2016.
+Exchange student, University of Illinois, 2014.
+
+### Grants and Awards
+
+**Doctoral Student Research Encouragement Grant**, National Research Foundation of Korea. 2024 to 2026. KRW 20,000,000 over two years.
+
+**Best Thesis Proposal Award**, Korea University Business School Graduate School. 2019.
+
+**Best English Thesis Award**, Korea University Business School Graduate School. 2019.
+
+**Army Commendation Medal (ARCOM)**, United States Army, for meritorious service. 2012.
+
+### Service
+
+**Ad hoc reviewer, conferences.** ICIS (2022, 2023, 2024, 2026); PACIS (2023, 2024); CIST (2026).
+
+**Ad hoc reviewer, journals.** Asia Pacific Journal of Information Systems (4 manuscripts); Decision Sciences Journal (1 manuscript).
+
+### Doctoral Coursework
+
+Panel Data Econometrics · Applied Econometrics · Microeconomic Analysis · Industrial Organization · Behavioral Economics: Theory and Applications · Quantitative Models for Marketing Decisions · Multivariate Statistical Analysis · Machine Learning for AI · Bayesian Machine Learning
+
+### Earlier Professional Experience
+
+**Research Intern**, Oliver Wyman, a global management consulting firm. 2016.
+Analyzed the overseas performance of a Korean property insurer and researched international pricing practices.
+
+**Sales Team Intern**, Tree Planet, a Korean social venture in reforestation. 2015.
+Corporate and individual sales, new business development, and quantitative assessment of social and economic impact.
+
+**Founding Member**, Taling, a skill-sharing startup that has since become one of Korea's major online education platforms. 2015.
+
+**Founding Member**, BeKind, a donation platform that has since become Shoot for Love, one of Korea's leading football content channels. 2012.
+
+### Military Service
+
+**Republic of Korea Army**, assigned to United States Forces Korea. 2010 to 2012.
+Completed mandatory military service in a combined United States and Korean command, working in English daily.
+
+### Technical Skills
+
+**Programming and statistical software.** Python, R, Stata.
+**Languages.** Korean (native), English (fluent).
+
+---
+
+Reach me at [seokchaeyoon@kaist.ac.kr](mailto:seokchaeyoon@kaist.ac.kr).
