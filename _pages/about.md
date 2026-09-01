@@ -11,13 +11,13 @@ I am a Ph.D. candidate in Management Engineering (Information Systems) at the KA
 
 My research asks when AI-generated information can be trusted, and what that trust is worth to the individuals, professionals, and firms that act on it. My dissertation pursues this question in healthcare, from smartphone-based mental health screening to AI underwriting in insurance markets. I carry the same lens into digital platforms and retail, building the model each setting requires.
 
-**Research areas.** Healthcare IT, algorithmic decision-making, platform economics.
+**Research areas.** Healthcare IT, algorithmic decision-making, platform economics.  
 **Methods.** Deep learning, econometrics and causal inference, Bayesian statistics and machine learning.
 
 ## Job Market Paper
 
-**Screening Mental Health with Smartphones: Understanding Real-World Noise in Smartphone-Generated Physiological Data**
-Yoon, S., Oh, J., & Oh, W.
+**Screening Mental Health with Smartphones: Understanding Real-World Noise in Smartphone-Generated Physiological Data**  
+Yoon, S., Oh, J., & Oh, W.  
 *Under review at MIS Quarterly.* To be presented at CIST 2026.
 
 Develops a biodynamics-guided deep learning framework for smartphone-based depression screening that quantifies real-world measurement noise through deep-ensemble uncertainty estimation, addressing the reliability problem that limits consumer-grade digital biomarkers.
@@ -26,7 +26,7 @@ Develops a biodynamics-guided deep learning framework for smartphone-based depre
 
 ### Dissertation
 
-**When AI Enters the Healthcare Information Environment: Sensing, Treatment, and Markets**
+**When AI Enters the Healthcare Information Environment: Sensing, Treatment, and Markets**  
 Committee Chair: Professor Wonseok Oh. Proposal defended May 2026.
 
 The dissertation examines what happens when AI relaxes long-standing information constraints in healthcare, across three essays spanning physiological screening, behavioral treatment delivery, and risk-based market design. It argues that the value of AI-generated health information is not fixed, but depends on the reliability of the information the AI produces, the mechanism through which it reaches individuals, and the market structure it enters.
@@ -81,7 +81,7 @@ Kim, J., **Yoon, S.**, & Chung, S. Working Daily, Paid Monthly? Effects of On-De
 
 ### Instructor
 
-**Big Data Programming I**, Department of Big Data Applications, Kyung Hee University. Spring 2026.
+**Big Data Programming I**, Department of Big Data Applications, Kyung Hee University. Spring 2026.  
 Introductory Python programming course. Teaching evaluation: 94.67 / 100 (department average 94.49).
 
 ### Corporate and Executive Education
@@ -110,32 +110,32 @@ Introductory Python programming course. Teaching evaluation: 94.67 / 100 (depart
 
 ### Teaching Assistant
 
-**AI-Driven Business Evolution**, KAIST College of Business. Spring 2026.
+**AI-Driven Business Evolution**, KAIST College of Business. Spring 2026.  
 Co-designed the syllabus and evaluation rubrics for a course in which students build agentic AI and LLM-based MVP web or mobile services. Conducted business-viability review and feedback.
 
-**Cloud Computing and Unstructured Data Analytics**, KAIST College of Business. Spring 2023.
+**Cloud Computing and Unstructured Data Analytics**, KAIST College of Business. Spring 2023.  
 Supported student projects on AWS-based collection and analysis of unstructured text data.
 
 ### Curriculum Development
 
-**Math Camp and AI Camp**, KAIST College of Business. 2024.
+**Math Camp and AI Camp**, KAIST College of Business. 2024.  
 Designed and delivered both curricula for incoming graduate students.
 
 ## Background
 
 ### Education
 
-**Ph.D. in Management Engineering (Information Systems Track)**
-KAIST College of Business, Seoul, Korea. Mar. 2022 to expected 2027.
+**Ph.D. in Management Engineering (Information Systems Track)**  
+KAIST College of Business, Seoul, Korea. Mar. 2022 to expected 2027.  
 Advisor: Professor Wonseok Oh. Dissertation proposal defended May 2026.
 
-**M.A. in Business Administration (Marketing)**
-Korea University Business School, Seoul, Korea. Mar. 2017 to Aug. 2019.
-Thesis: "Exploring Mechanism of Marriage Decision: Hierarchical Bayesian Approach."
+**M.A. in Business Administration (Marketing)**  
+Korea University Business School, Seoul, Korea. Mar. 2017 to Aug. 2019.  
+Thesis: "Exploring Mechanism of Marriage Decision: Hierarchical Bayesian Approach."  
 Awards: Best Thesis Proposal Award; Best English Thesis Award.
 
-**B.A. in Business Administration**
-Korea University, Seoul, Korea. Mar. 2009 to Aug. 2016.
+**B.A. in Business Administration**  
+Korea University, Seoul, Korea. Mar. 2009 to Aug. 2016.  
 Exchange student, University of Illinois, 2014.
 
 ### Grants and Awards
@@ -160,10 +160,10 @@ Panel Data Econometrics · Applied Econometrics · Microeconomic Analysis · Ind
 
 ### Earlier Professional Experience
 
-**Research Intern**, Oliver Wyman, a global management consulting firm. 2016.
+**Research Intern**, Oliver Wyman, a global management consulting firm. 2016.  
 Analyzed the overseas performance of a Korean property insurer and researched international pricing practices.
 
-**Sales Team Intern**, Tree Planet, a Korean social venture in reforestation. 2015.
+**Sales Team Intern**, Tree Planet, a Korean social venture in reforestation. 2015.  
 Corporate and individual sales, new business development, and quantitative assessment of social and economic impact.
 
 **Founding Member**, Taling, a skill-sharing startup that has since become one of Korea's major online education platforms. 2015.
@@ -172,12 +172,12 @@ Corporate and individual sales, new business development, and quantitative asses
 
 ### Military Service
 
-**Republic of Korea Army**, assigned to United States Forces Korea. 2010 to 2012.
+**Republic of Korea Army**, assigned to United States Forces Korea. 2010 to 2012.  
 Completed mandatory military service in a combined United States and Korean command, working in English daily.
 
 ### Technical Skills
 
-**Programming and statistical software.** Python, R, Stata.
+**Programming and statistical software.** Python, R, Stata.  
 **Languages.** Korean (native), English (fluent).
 
 ---
