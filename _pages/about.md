@@ -20,7 +20,12 @@ My research asks when AI-generated information can be trusted, and what that tru
 Yoon, S., Oh, J., & Oh, W.  
 *Under review at MIS Quarterly.* To be presented at CIST 2026.
 
+<details markdown="1">
+<summary>Abstract</summary>
+
 Develops a biodynamics-guided deep learning framework for smartphone-based depression screening that quantifies real-world measurement noise through deep-ensemble uncertainty estimation, addressing the reliability problem that limits consumer-grade digital biomarkers.
+
+</details>
 
 ## Research
 
@@ -39,21 +44,77 @@ The dissertation examines what happens when AI relaxes long-standing information
 
 ### Publications
 
-Kim, J., **Yoon, S.**, Chung, S., & Oh, W. (2025). Working Daily, Paid Monthly? Effects of On-Demand Wage Access on the Financial Engagement of Low-Wage Workers. *Information Systems Research.*
+Kim, J., **Yoon, S.**, Chung, S., & Oh, W. (2025). Working Daily, Paid Monthly? Effects of On-Demand Wage Access on the Financial Engagement of Low-Wage Workers. *Information Systems Research.*  
+*My role:* second author. Led the causal-inference and mixed-methods analysis — matrix completion, causal forest, and other causal ML methods — together with the online experiment, survey, and interview components.
+
+<details markdown="1">
+<summary>Abstract</summary>
+
+Shows that on-demand wage access (OWA) increases low-wage workers' saving frequency, financial-dashboard monitoring, and explicit goal-setting by giving them more autonomy over when they use their income. Combining transaction data from about 4,000 workers with an online experiment, a 58-respondent survey, and 20 interviews, the mixed-methods design traces these gains to a self-empowerment mechanism: workers shift from reactive to proactive financial management, using OWA as scaffolding for disciplined saving behavior.
+
+</details>
 
 ### Working Papers
 
-Kim, K., **Yoon, S.**, Kwon, H.E., & Oh, W. Rational App Curation: A Portfolio-Theoretic View of Mobile App Adoption and Churn. *Preparing submission to Information Systems Research.*
+Kim, K., **Yoon, S.**, Kwon, H.E., & Oh, W. Rational App Curation: A Portfolio-Theoretic View of Mobile App Adoption and Churn. *Preparing submission to Information Systems Research.*  
+*My role:* built the structural model, extending the MDCEV framework to the mobile-app-usage setting.
 
-Kim, J., **Yoon, S.**, Ghose, A., & Oh, W. Beyond Efficiency: The Impact of Self-Order Kiosk Adoption on Demand Variety. *Preparing submission to Production and Operations Management.*
+<details markdown="1">
+<summary>Abstract</summary>
 
-Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. *Conditionally accepted, ICIS 2026; preparing submission to Management Science.*
+Models app adoption and churn as portfolio decisions: users weigh each app's utility against its risk of usage satiation, with multi-homing acting as diversification across their "app portfolio." Structural estimates of app-level utility and satiation risk are used to build individualized efficient frontiers, and folding these portfolio features into machine-learning predictions improves adoption and churn accuracy by up to 8.6 and 9.1 percentage points, respectively, over behavioral, demographic, affinity-driven, and network-based benchmarks.
 
-Park, J., **Yoon, S.**, Shin, D., & Cho, D. When Does a Pickup Become a Commitment? Dynamic Decision Boundaries and Temporal Graph Learning in Cashierless Retail Stores. *Under review, WITS 2026; preparing submission to Manufacturing & Service Operations Management.*
+</details>
 
-Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Under review, WITS 2026; preparing submission to Journal of Marketing.*
+Kim, J., **Yoon, S.**, Ghose, A., & Oh, W. Beyond Efficiency: The Impact of Self-Order Kiosk Adoption on Demand Variety. *Preparing submission to Production and Operations Management.*  
+*My role:* built the store-level structural model of kiosk adoption and conducted the interviews that strengthen the qualitative case for the mechanism.
 
-Bhak, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Leveraging Preference Structure from LLM-Generated Choices: A Scale-Adjusted Pooling Approach. *Under review, WITS 2026; preparing submission to Information Systems Research.*
+<details markdown="1">
+<summary>Abstract</summary>
+
+Using a staggered difference-in-differences design on 17 months of transaction data from a major Korean coffee franchise, shows that self-order kiosk adoption immediately widens demand variety, both across menu items and in customization intensity, as kiosks lower the social friction of complex orders and surface long-tail items. The expansion persists longer in lower-income districts and fades faster in affluent ones, producing an asymmetric split in which headquarters keep the revenue gains while franchisees absorb the added operational complexity.
+
+</details>
+
+Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. *Conditionally accepted, ICIS 2026; preparing submission to Management Science.*  
+*My role:* led the empirical analysis and the interview-based qualitative work.
+
+<details markdown="1">
+<summary>Abstract</summary>
+
+Tracking drivers on a South Korean ride-hailing platform as they move into and out of an automatic-matching system that limits their discretion over which rides to accept, finds that automatic matching reduces cruising time but also erodes drivers' alignment with recurring and unusual demand patterns. After drivers regain discretion, alignment with recurring demand largely recovers while alignment with unusual demand only partially does, suggesting algorithmic delegation reshapes different dimensions of worker skill unevenly depending on how much practice, feedback, and relearning the system leaves room for.
+
+</details>
+
+Park, J., **Yoon, S.**, Shin, D., & Cho, D. When Does a Pickup Become a Commitment? Dynamic Decision Boundaries and Temporal Graph Learning in Cashierless Retail Stores. *Under review, WITS 2026; preparing submission to Manufacturing & Service Operations Management.*  
+*My role:* designed and built the proposed model, the Dynamic Heterogeneous Temporal Commitment Network.
+
+<details markdown="1">
+<summary>Abstract</summary>
+
+Argues that cashierless stores relocate the observable purchase decision from checkout to the seconds right after a shopper picks up an item, the *physical commitment boundary* between a shelf return and a carry-forward purchase. Linking shelf-event logs, LiDAR trajectories, and payment records from a cashierless store, the proposed network combines relation-specific graph attention over nearby shoppers with a causal temporal convolutional network over the focal shopper's own trajectory to forecast, in real time and without lookahead, whether a picked-up item will be returned or bought.
+
+</details>
+
+Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Under review, WITS 2026; preparing submission to Journal of Marketing.*  
+*My role:* designed and built the proposed model, OCC-ToneNet.
+
+<details markdown="1">
+<summary>Abstract</summary>
+
+Proposes OCC-ToneNet, a concept-bottleneck model that grounds emotion measurement in consumer reviews in Ortony-Clore-Collins appraisal theory, so that every prediction is composed from interpretable, theory-specified concepts rather than an opaque neural mapping. Against fine-tuned language-model baselines on Amazon reviews, the theory-constrained model gives up only about 0.01 in correlation with reference scores while guaranteeing directional consistency by construction, and scaling its encoder closes even that small gap.
+
+</details>
+
+Bhak, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Leveraging Preference Structure from LLM-Generated Choices: A Scale-Adjusted Pooling Approach. *Under review, WITS 2026; preparing submission to Information Systems Research.*  
+*My role:* co-developed the proposed estimator with the other authors, using LLM-generated data to augment it.
+
+<details markdown="1">
+<summary>Abstract</summary>
+
+Proposes Scale-Adjusted Structural Pooling (SASP), an estimator that combines a large sample of LLM-generated choices with a small human sample by assuming both share a preference direction while keeping source-specific utility scales — letting the LLM data pin down the direction of the human coefficient vector while the human data calibrates its scale. Across two conjoint datasets, SASP improves coefficient recovery over benchmark estimators, especially when the LLM's preference structure is compatible with the human target and the human sample is small.
+
+</details>
 
 ### Conference Presentations
 
