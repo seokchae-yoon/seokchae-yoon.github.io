@@ -1,28 +1,23 @@
 /* ==========================================================================
-    DEFAULT THEME - DARK VERSION
+    DEFAULT THEME - "DARK" PREFERENCE, MAPPED TO THE SAME IVORY/OLIVE PALETTE
+    Intentionally identical to the light variant: visitors whose OS/browser
+    is set to dark mode should still see black text on an ivory background,
+    not a low-contrast dark theme.
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #0ea1c5;
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$primary-color              : #6b6e23;
+$gray                       : #6b6e23;
+$dark-gray                  : #14140f;
+$darker-gray                : #0c0c09;
+$light-gray                 : #9a9a6e;
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color                : #b3261e;
+$info-color                  : #6b6e23;
+$notice-color                : #8a8c4a;
+$success-color               : #4f7d3c;
+$warning-color               : #a86b1e;
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
@@ -34,23 +29,22 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/* "Dark" theme for the site (kept visually identical to light on purpose) */
 html[data-theme="dark"] {
     --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-bg-color                   : #faf6ec;
+    --global-footer-bg-color            : #f0ecdb;
+    --global-border-color               : #ddd7ba;
+    --global-dark-border-color          : #c9c39f;
+    --global-code-background-color      : #f3f0e2;
+    --global-code-text-color            : #1c1c15;
+    --global-fig-caption-color          : #55572a;
+    --global-link-color                 : #55571f;
+    --global-link-color-hover           : #3d3f16;
+    --global-link-color-visited         : #74772b;
+    --global-masthead-link-color        : #1a1a14;
+    --global-masthead-link-color-hover  : #55571f;
+    --global-text-color                 : #1a1a14;
+    --global-text-color-light           : #4a4a35;
+    --global-thead-color                : #ece6cf;
 }
-
