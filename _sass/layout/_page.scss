@@ -399,3 +399,25 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Collapsible abstracts (used on the About page for each publication) */
+.page__content details {
+  margin: 0.75em 0 1.25em;
+
+  summary {
+    cursor: pointer;
+    color: var(--global-link-color);
+    font-weight: bold;
+    font-size: $type-size-6;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+  }
+
+  p {
+    margin-top: 0.75em;
+  }
+}
