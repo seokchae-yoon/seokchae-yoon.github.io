@@ -1,22 +1,33 @@
 ---
 permalink: /
 title: "Seokchae Yoon"
-author_profile: true
+author_profile: false
+classes: page--home
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a Ph.D. candidate in Management Engineering (Information Systems) at the KAIST College of Business, advised by Professor Wonseok Oh. I expect to complete my degree in 2027, and I am on the job market this year.
-
-[Download my CV (PDF)](/files/Seokchae_Yoon_CV.pdf){: .btn .btn--primary}
-
-My research asks whether the digital and AI services that observe and act on individuals' finances and health genuinely serve those individuals, and what model and deployment design this requires. My dissertation pursues this question in healthcare AI: it builds a noise-robust smartphone-based depression screening model (job market paper, under review at *MIS Quarterly*), causally evaluates a digital therapeutic through randomized trials, and designs hybrid AI underwriting that balances risk protection with access. A second stream, anchored by my publication in *Information Systems Research*, examines how platform services reshape the economic lives of workers, from on-demand wage access to algorithmic matching in ride-hailing. Across both streams, I build AI models when the question requires one and verify effects with causal inference.
-
-**Research areas.** Healthcare IT, trustworthy AI and algorithmic decision-making, platform economics.  
-**Methods.** Deep learning, causal inference, econometrics, Bayesian statistics and machine learning.
+<section class="hero">
+  <img class="hero__photo" src="{{ '/images/profile.jpg' | relative_url }}" alt="Seokchae Yoon">
+  <div class="hero__body">
+    <h1 class="hero__name">Seokchae Yoon</h1>
+    <p class="hero__role">Ph.D. Candidate in Management Engineering (Information Systems Track)<br>KAIST College of Business, Seoul, Korea</p>
+    <p>I am advised by Professor Wonseok Oh and expect to complete my degree in 2027. I am on the job market this year.</p>
+    <p>My research asks whether the digital and AI services that observe and act on individuals' finances and health genuinely serve those individuals, and what model and deployment design this requires. I build AI models when the question requires one and verify effects with causal inference.</p>
+    <p class="chips">
+      <a class="chip chip--primary" href="{{ '/files/Seokchae_Yoon_CV.pdf' | relative_url }}">Download CV</a>
+      <a class="chip" href="mailto:seokchaeyoon@kaist.ac.kr">Email</a>
+      <a class="chip" href="https://scholar.google.com/citations?user=1A6VYAkAAAAJ&hl=ko">Google Scholar</a>
+      <a class="chip" href="https://orcid.org/0000-0001-7582-5304">ORCID</a>
+      <a class="chip" href="https://github.com/seokchae-yoon">GitHub</a>
+    </p>
+  </div>
+</section>
 
 ## Job Market Paper
+
+<div class="card" markdown="1">
 
 **Screening Mental Health with Smartphones: Understanding Real-World Noise in Smartphone-Generated Physiological Data**  
 Yoon, S., Oh, J., & Oh, W.  
@@ -29,7 +40,35 @@ Develops a biodynamics-guided deep learning framework for smartphone-based depre
 
 </details>
 
+</div>
+
 ## Research
+
+### Research Themes
+
+<div class="themes">
+<div class="theme" markdown="1">
+
+**Healthcare AI**
+
+My dissertation pursues the question in healthcare AI: it builds a noise-robust smartphone-based depression screening model (job market paper, under review at *MIS Quarterly*), causally evaluates a digital therapeutic through randomized trials, and designs hybrid AI underwriting that balances risk protection with access.
+{: .theme__text}
+
+<span class="tags">Healthcare IT · Trustworthy AI · Deep Learning</span>
+</div>
+<div class="theme" markdown="1">
+
+**Platform Economics and Workers**
+
+A second stream, anchored by my publication in *Information Systems Research*, examines how platform services reshape the economic lives of workers, from on-demand wage access to algorithmic matching in ride-hailing.
+{: .theme__text}
+
+<span class="tags">Platform Economics · Algorithmic Decision-Making · Causal Inference</span>
+</div>
+</div>
+
+**Research areas.** Healthcare IT, trustworthy AI and algorithmic decision-making, platform economics.  
+**Methods.** Deep learning, causal inference, econometrics, Bayesian statistics and machine learning.
 
 ### Dissertation
 
@@ -46,8 +85,15 @@ The dissertation examines what happens when AI relaxes long-standing information
 
 ### Publications
 
-Kim, J., **Yoon, S.**, Chung, S., & Oh, W. (2025). Working Daily, Paid Monthly? Effects of On-Demand Wage Access on the Financial Engagement of Low-Wage Workers. *Information Systems Research* 37(3):1463–1484. [https://doi.org/10.1287/isre.2023.0673](https://doi.org/10.1287/isre.2023.0673)  
+<div class="paper" markdown="1">
+
+Kim, J., **Yoon, S.**, Chung, S., & Oh, W. (2025). Working Daily, Paid Monthly? Effects of On-Demand Wage Access on the Financial Engagement of Low-Wage Workers. *Information Systems Research* 37(3):1463–1484.
+{: .paper__cite}
+
 *My role:* responsible for the causal machine learning analyses (double/debiased machine learning, causal forest); conducted the semistructured user interviews.
+{: .paper__role}
+
+<p class="links"><a class="chip" href="https://doi.org/10.1287/isre.2023.0673">DOI</a></p>
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -56,10 +102,17 @@ Shows that on-demand wage access (OWA) increases low-wage workers' saving freque
 
 </details>
 
+</div>
+
 ### Working Papers
 
-Kim, K., **Yoon, S.**, Kwon, H.E., & Oh, W. Rational App Curation: A Portfolio-Theoretic View of Mobile App Adoption and Churn. *Preparing submission to Information Systems Research.*  
+<div class="paper" markdown="1">
+
+Kim, K., **Yoon, S.**, Kwon, H.E., & Oh, W. Rational App Curation: A Portfolio-Theoretic View of Mobile App Adoption and Churn. *Preparing submission to Information Systems Research.*
+{: .paper__cite}
+
 *My role:* co-developing the framework that connects the multiple discrete-continuous extreme value (MDCEV) model to a deep learning forecasting component, feeding MDCEV-estimated parameters into the network as inputs.
+{: .paper__role}
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -68,8 +121,15 @@ Models app adoption and churn as portfolio decisions: users weigh each app's uti
 
 </details>
 
-Kim, J., **Yoon, S.**, Ghose, A., & Oh, W. Beyond Efficiency: The Impact of Self-Order Kiosk Adoption on Demand Variety. *Preparing submission to Production and Operations Management.*  
+</div>
+
+<div class="paper" markdown="1">
+
+Kim, J., **Yoon, S.**, Ghose, A., & Oh, W. Beyond Efficiency: The Impact of Self-Order Kiosk Adoption on Demand Variety. *Preparing submission to Production and Operations Management.*
+{: .paper__cite}
+
 *My role:* built the store-level structural model of kiosk adoption and conducted the interviews that strengthen the qualitative case for the mechanism.
+{: .paper__role}
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -78,8 +138,15 @@ Using a staggered difference-in-differences design on 17 months of transaction d
 
 </details>
 
-Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. *Accepted, ICIS 2026. Targeted for Information Systems Research or Management Science.*  
+</div>
+
+<div class="paper" markdown="1">
+
+Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. *Accepted, ICIS 2026. Targeted for Information Systems Research or Management Science.*
+{: .paper__cite}
+
 *My role:* developing a structural model complementing the main empirical analysis.
+{: .paper__role}
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -88,8 +155,15 @@ Tracking drivers on a South Korean ride-hailing platform as they move into and o
 
 </details>
 
-Park, J., **Yoon, S.**, Shin, D., & Cho, D. When Does a Pickup Become a Commitment? Dynamic Decision Boundaries and Temporal Graph Learning in Cashierless Retail Stores. *Preparing submission to Manufacturing & Service Operations Management.*  
+</div>
+
+<div class="paper" markdown="1">
+
+Park, J., **Yoon, S.**, Shin, D., & Cho, D. When Does a Pickup Become a Commitment? Dynamic Decision Boundaries and Temporal Graph Learning in Cashierless Retail Stores. *Preparing submission to Manufacturing & Service Operations Management.*
+{: .paper__cite}
+
 *My role:* independently developed the deep learning model for the research question and context (the Dynamic Heterogeneous Temporal Commitment Network).
+{: .paper__role}
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -98,8 +172,15 @@ Argues that cashierless stores relocate the observable purchase decision from ch
 
 </details>
 
-Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Preparing submission to Journal of Marketing.*  
+</div>
+
+<div class="paper" markdown="1">
+
+Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Preparing submission to Journal of Marketing.*
+{: .paper__cite}
+
 *My role:* selected the theoretical framework (the OCC appraisal model) and developed a new prediction model, OCC-ToneNet.
+{: .paper__role}
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -108,8 +189,15 @@ Proposes OCC-ToneNet, a concept-bottleneck model that grounds emotion measuremen
 
 </details>
 
-Bhaek, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Structure-aware Human–AI Reciprocal Estimation: Recovering Preference Structure from Generative AI under Human-Data Scarcity. *Under review at Information Systems Research.*  
+</div>
+
+<div class="paper" markdown="1">
+
+Bhaek, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Structure-aware Human–AI Reciprocal Estimation: Recovering Preference Structure from Generative AI under Human-Data Scarcity. *Under review at Information Systems Research.*
+{: .paper__cite}
+
 *My role:* equal contribution; co-developed the estimator that pools response distributions from multiple generative AI services with scarce human-response data.
+{: .paper__role}
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -117,6 +205,8 @@ Bhaek, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Structure-a
 Develops Structure-aware Human–AI Reciprocal Estimation (SHARE), which combines limited human data with LLM-generated choices to estimate preference structure. SHARE allows LLM-specific response scales and attribute-level differences, then uses human response information to calibrate the overall coefficient magnitude. Across two conjoint-choice settings, SHARE most consistently improves recovery of preference structure when human data are scarce, and a multi-model extension that jointly uses several LLMs reduces dependence on selecting a favorable model in advance.
 
 </details>
+
+</div>
 
 ### Conference Presentations
 
