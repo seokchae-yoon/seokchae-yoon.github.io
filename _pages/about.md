@@ -220,7 +220,7 @@ Exchange student, University of Illinois, 2014.
 
 **Best English Thesis Award**, Korea University Business School Graduate School. 2019.
 
-**Army Commendation Medal (ARCOM)**, United States Army, for meritorious service. 2012.
+**Army Commendation Medal (ARCOM)**, United States Army, for meritorious service as a Sergeant in the USFK Public Affairs Office. Awarded January 21, 2012.
 
 ### Service
 
@@ -246,7 +246,7 @@ Corporate and individual sales, new business development, and quantitative asses
 
 ### Military Service
 
-**Republic of Korea Army**, assigned to United States Forces Korea. 2010 to 2012.  
+**Republic of Korea Army**, assigned to United States Forces Korea (USFK Public Affairs Office). Jun. 2010 to Feb. 2012.  
 Completed mandatory military service in a combined United States and Korean command, working in English daily.
 
 ### Technical Skills
