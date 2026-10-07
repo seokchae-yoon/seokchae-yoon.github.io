@@ -9,16 +9,18 @@ redirect_from:
 
 I am a Ph.D. candidate in Management Engineering (Information Systems) at the KAIST College of Business, advised by Professor Wonseok Oh. I expect to complete my degree in 2027, and I am on the job market this year.
 
-My research asks when AI-generated information can be trusted, and what that trust is worth to the individuals, professionals, and firms that act on it. My dissertation pursues this question in healthcare, from smartphone-based mental health screening to AI underwriting in insurance markets. I carry the same lens into digital platforms and retail, building the model each setting requires.
+[Download my CV (PDF)](/files/Seokchae_Yoon_CV.pdf){: .btn .btn--primary}
 
-**Research areas.** Healthcare IT, algorithmic decision-making, platform economics.  
-**Methods.** Deep learning, econometrics and causal inference, Bayesian statistics and machine learning.
+My research asks whether the digital and AI services that observe and act on individuals' finances and health genuinely serve those individuals, and what model and deployment design this requires. My dissertation pursues this question in healthcare AI: it builds a noise-robust smartphone-based depression screening model (job market paper, under review at *MIS Quarterly*), causally evaluates a digital therapeutic through randomized trials, and designs hybrid AI underwriting that balances risk protection with access. A second stream, anchored by my publication in *Information Systems Research*, examines how platform services reshape the economic lives of workers, from on-demand wage access to algorithmic matching in ride-hailing. Across both streams, I build AI models when the question requires one and verify effects with causal inference.
+
+**Research areas.** Healthcare IT, trustworthy AI and algorithmic decision-making, platform economics.  
+**Methods.** Deep learning, causal inference, econometrics, Bayesian statistics and machine learning.
 
 ## Job Market Paper
 
 **Screening Mental Health with Smartphones: Understanding Real-World Noise in Smartphone-Generated Physiological Data**  
 Yoon, S., Oh, J., & Oh, W.  
-*Under review at MIS Quarterly.* To be presented at CIST 2026.
+*Under review at MIS Quarterly.* To be presented at the 2026 Conference on Information Systems and Technology (CIST) and at ICIS 2026.
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -32,7 +34,7 @@ Develops a biodynamics-guided deep learning framework for smartphone-based depre
 ### Dissertation
 
 **When AI Enters the Healthcare Information Environment: Sensing, Treatment, and Markets**  
-Committee Chair: Professor Wonseok Oh. Proposal defended May 2026.
+Committee Chair: Professor Wonseok Oh. Proposal defended May 2026; final defense planned for April 2027.
 
 The dissertation examines what happens when AI relaxes long-standing information constraints in healthcare, across three essays spanning physiological screening, behavioral treatment delivery, and risk-based market design. It argues that the value of AI-generated health information is not fixed, but depends on the reliability of the information the AI produces, the mechanism through which it reaches individuals, and the market structure it enters.
 
@@ -40,12 +42,12 @@ The dissertation examines what happens when AI relaxes long-standing information
 
 **Essay 2.** Engaging for Better Sleep: User Interaction and Behavioral Change in a Mobile App-Based Digital Therapeutic for Insomnia. An RCT-based evaluation of a CBT-I digital therapeutic. *Presented at CIST 2025; in preparation for journal submission.*
 
-**Essay 3.** AI Underwriting in Health Insurance: Model Development and Market Consequences. Develops an AI underwriting model and tests a human-AI decision delegation design (Always Rule / Selective AI / Always AI) through a pre-registered field experiment, in collaboration with KB Life. *Under review, WISE 2026; pre-registered field experiment forthcoming.*
+**Essay 3.** AI Underwriting in Health Insurance, from Model to Market. Develops an AI underwriting model and examines how insurers should allocate decisions among rules, human judgment, and AI, in collaboration with KB Life Insurance, a major South Korean life insurer. *Field experiment in preparation on how the model's risk information shapes underwriting decisions and individuals' responses.*
 
 ### Publications
 
-Kim, J., **Yoon, S.**, Chung, S., & Oh, W. (2025). Working Daily, Paid Monthly? Effects of On-Demand Wage Access on the Financial Engagement of Low-Wage Workers. *Information Systems Research.*  
-*My role:* second author. Led the causal-inference and mixed-methods analysis — matrix completion, causal forest, and other causal ML methods — together with the online experiment, survey, and interview components.
+Kim, J., **Yoon, S.**, Chung, S., & Oh, W. (2025). Working Daily, Paid Monthly? Effects of On-Demand Wage Access on the Financial Engagement of Low-Wage Workers. *Information Systems Research* 37(3):1463–1484. [https://doi.org/10.1287/isre.2023.0673](https://doi.org/10.1287/isre.2023.0673)  
+*My role:* responsible for the causal machine learning analyses (double/debiased machine learning, causal forest); conducted the semistructured user interviews.
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -57,7 +59,7 @@ Shows that on-demand wage access (OWA) increases low-wage workers' saving freque
 ### Working Papers
 
 Kim, K., **Yoon, S.**, Kwon, H.E., & Oh, W. Rational App Curation: A Portfolio-Theoretic View of Mobile App Adoption and Churn. *Preparing submission to Information Systems Research.*  
-*My role:* built the structural model, extending the MDCEV framework to the mobile-app-usage setting.
+*My role:* co-developing the framework that connects the multiple discrete-continuous extreme value (MDCEV) model to a deep learning forecasting component, feeding MDCEV-estimated parameters into the network as inputs.
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -76,8 +78,8 @@ Using a staggered difference-in-differences design on 17 months of transaction d
 
 </details>
 
-Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. *Conditionally accepted, ICIS 2026; preparing submission to Management Science.*  
-*My role:* led the empirical analysis and the interview-based qualitative work.
+Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. *Accepted, ICIS 2026. Targeted for Information Systems Research or Management Science.*  
+*My role:* developing a structural model complementing the main empirical analysis.
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -86,8 +88,8 @@ Tracking drivers on a South Korean ride-hailing platform as they move into and o
 
 </details>
 
-Park, J., **Yoon, S.**, Shin, D., & Cho, D. When Does a Pickup Become a Commitment? Dynamic Decision Boundaries and Temporal Graph Learning in Cashierless Retail Stores. *Under review, WITS 2026; preparing submission to Manufacturing & Service Operations Management.*  
-*My role:* designed and built the proposed model, the Dynamic Heterogeneous Temporal Commitment Network.
+Park, J., **Yoon, S.**, Shin, D., & Cho, D. When Does a Pickup Become a Commitment? Dynamic Decision Boundaries and Temporal Graph Learning in Cashierless Retail Stores. *Preparing submission to Manufacturing & Service Operations Management.*  
+*My role:* independently developed the deep learning model for the research question and context (the Dynamic Heterogeneous Temporal Commitment Network).
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -96,8 +98,8 @@ Argues that cashierless stores relocate the observable purchase decision from ch
 
 </details>
 
-Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Under review, WITS 2026; preparing submission to Journal of Marketing.*  
-*My role:* designed and built the proposed model, OCC-ToneNet.
+Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Preparing submission to Journal of Marketing.*  
+*My role:* selected the theoretical framework (the OCC appraisal model) and developed a new prediction model, OCC-ToneNet.
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -106,17 +108,21 @@ Proposes OCC-ToneNet, a concept-bottleneck model that grounds emotion measuremen
 
 </details>
 
-Bhaek, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Leveraging Preference Structure from LLM-Generated Choices: A Scale-Adjusted Pooling Approach. *Under review at Information Systems Research.*  
-*My role:* co-developed the proposed estimator with the other authors, using LLM-generated data to augment it.
+Bhaek, J., Choi, K., & **Yoon, S.** (authors in alphabetical order). Structure-aware Human–AI Reciprocal Estimation: Recovering Preference Structure from Generative AI under Human-Data Scarcity. *Under review at Information Systems Research.*  
+*My role:* equal contribution; co-developed the estimator that pools response distributions from multiple generative AI services with scarce human-response data.
 
 <details markdown="1">
 <summary>Abstract</summary>
 
-Proposes Scale-Adjusted Structural Pooling (SASP), an estimator that combines a large sample of LLM-generated choices with a small human sample by assuming both share a preference direction while keeping source-specific utility scales — letting the LLM data pin down the direction of the human coefficient vector while the human data calibrates its scale. Across two conjoint datasets, SASP improves coefficient recovery over benchmark estimators, especially when the LLM's preference structure is compatible with the human target and the human sample is small.
+Develops Structure-aware Human–AI Reciprocal Estimation (SHARE), which combines limited human data with LLM-generated choices to estimate preference structure. SHARE allows LLM-specific response scales and attribute-level differences, then uses human response information to calibrate the overall coefficient magnitude. Across two conjoint-choice settings, SHARE most consistently improves recovery of preference structure when human data are scarce, and a multi-model extension that jointly uses several LLMs reduces dependence on selecting a favorable model in advance.
 
 </details>
 
 ### Conference Presentations
+
+Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. **ICIS 2026** (forthcoming).
+
+**Yoon, S.**, Oh, J., & Oh, W. Screening Mental Health with Smartphones: Understanding Real-World Noise in Smartphone-Generated Physiological Data. **CIST 2026** and **ICIS 2026** (forthcoming).
 
 Kim, K., Kang, H., Lee, D., Lee, G., Park, J., & **Yoon, S.** Unintended Consequences of Algorithmic Management: Evidence from Automatic Matching Systems in Ride-Hailing Platforms. **PACIS 2026.**
 
@@ -132,18 +138,18 @@ Kim, J., **Yoon, S.**, & Chung, S. Working Daily, Paid Monthly? Effects of On-De
 
 ### Industry and Data Partnerships
 
-**KB Life Insurance**, a life insurer under KB Financial Group (2026 to present). Development of an AI underwriting model and a pre-registered field experiment on human-AI decision delegation.
+**KB Life Insurance**, a South Korean life insurer under KB Financial Group (Apr. 2026 to present). Development of an AI underwriting model and a planned field experiment on AI-generated health risk information.
 
-**Kakao Mobility**, Korea's dominant ride-hailing platform (2024). Data value assessment for platform-generated matching data, drawing on approximately 48 million driver-passenger match attempts. Informs the *What Algorithms Leave Behind* working paper.
+**Kakao Mobility**, Korea's dominant ride-hailing platform (Nov. 2023 to Mar. 2024). Data value assessment for platform-generated matching data, drawing on approximately 48 million driver-passenger match attempts. Informs the *What Algorithms Leave Behind* working paper.
 
-**Shinhan Card**, one of Korea's largest credit card companies (2023). AI-based call center service improvement.
+**Shinhan Card**, one of Korea's largest credit card companies (Aug. 2023 to Dec. 2024). AI-based call center service improvement.
 
 ## Teaching
 
 ### Instructor
 
-**Big Data Programming I**, Department of Big Data Applications, Kyung Hee University. Spring 2026.  
-Introductory Python programming course. Teaching evaluation: 94.67 / 100 (department average 94.49).
+**Big Data Programming I**, Department of Big Data Applications, Kyung Hee University. Mar. 2026 to Jul. 2026.  
+Introductory Python programming course; sole instructor, 87 students. Teaching evaluation: 94.67 / 100 (department average 94.49).
 
 ### Corporate and Executive Education
 
@@ -171,35 +177,42 @@ Introductory Python programming course. Teaching evaluation: 94.67 / 100 (depart
 
 ### Teaching Assistant
 
-**AI-Driven Business Evolution**, KAIST College of Business. Spring 2026.  
+**AI-Driven Business Evolution** (MBA), KAIST College of Business. Mar. 2026 to Jul. 2026.  
 Co-designed the syllabus and evaluation rubrics for a course in which students build agentic AI and LLM-based MVP web or mobile services. Conducted business-viability review and feedback.
 
-**Cloud Computing and Unstructured Data Analytics**, KAIST College of Business. Spring 2023.  
+**Cloud Computing and Unstructured Data Analytics**, KAIST College of Business. Mar. 2023 to Jul. 2023.  
 Supported student projects on AWS-based collection and analysis of unstructured text data.
 
 ### Curriculum Development
 
-**Math Camp and AI Camp**, KAIST College of Business. 2024.  
-Designed and delivered both curricula for incoming graduate students.
+**KCB Math Camp and KCB AI Camp**, KAIST College of Business. Feb. 2024.  
+Designed and taught both camps (curriculum, syllabus, and instruction) for incoming master's and doctoral students.
+
+**Deep Learning for Computer Vision**, Modulabs online learning platform. 2023.  
+Designed and recorded a self-paced online course for non-specialists with basic Python experience (11 lectures, 13 h 20 min). [Course page](https://class.modulabs.co.kr/classes/74).
 
 ## Background
 
 ### Education
 
 **Ph.D. in Management Engineering (Information Systems Track)**  
-KAIST College of Business, Seoul, Korea. Mar. 2022 to expected 2027.  
-Advisor: Professor Wonseok Oh. Dissertation proposal defended May 2026.
+KAIST College of Business, Seoul, Korea. Mar. 2022 to expected Aug. 2027.  
+Advisor: Professor Wonseok Oh. Dissertation proposal defended May 2026; final defense planned for April 2027.
 
-**M.A. in Business Administration (Marketing)**  
+**M.S. in Business Administration (Marketing)**  
 Korea University Business School, Seoul, Korea. Mar. 2017 to Aug. 2019.  
 Thesis: "Exploring Mechanism of Marriage Decision: Hierarchical Bayesian Approach."  
+GPA: 4.20 / 4.50 (96.6 / 100).  
 Awards: Best Thesis Proposal Award; Best English Thesis Award.
 
-**B.A. in Business Administration**  
-Korea University, Seoul, Korea. Mar. 2009 to Aug. 2016.  
+**B.B.A. in Business Administration**  
+Korea University, Seoul, Korea. Mar. 2009 to Feb. 2017.  
+GPA: 4.34 / 4.50 (98.4 / 100).  
 Exchange student, University of Illinois, 2014.
 
 ### Grants and Awards
+
+**Selected Participant**, INFORMS Information Systems Society (ISS) Doctoral Consortium. 2026.
 
 **Doctoral Student Research Encouragement Grant**, National Research Foundation of Korea. 2024 to 2026. KRW 20,000,000 over two years.
 
