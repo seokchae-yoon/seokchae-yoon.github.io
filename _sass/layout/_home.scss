@@ -1,0 +1,166 @@
+/* ==========================================================================
+   HOME PAGE (readability layout): no sidebar, single wide column
+   Scoped to pages with `classes: page--home`
+   ========================================================================== */
+
+$home-heading-font: Georgia, "Times New Roman", serif;
+
+.page.page--home {
+  float: none;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0;
+
+  .page__title { display: none; }
+
+  .page__content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+
+    p, li { font-size: 1em; }
+
+    h2 {
+      font-family: $home-heading-font;
+      font-size: 1.85rem;
+      line-height: 1.2;
+      margin: 2.8em 0 1em;
+      padding-bottom: 0.35em;
+      border-bottom: 2px solid var(--global-dark-border-color);
+    }
+
+    h3 {
+      font-family: $home-heading-font;
+      font-size: 1.3rem;
+      line-height: 1.3;
+      margin: 2.2em 0 0.8em;
+      color: var(--global-text-color);
+    }
+
+    details {
+      margin: 0.6em 0 0;
+      summary {
+        cursor: pointer;
+        font-size: 0.9em;
+        color: var(--global-link-color);
+      }
+      p { font-size: 0.95em; color: var(--global-text-color-light); }
+    }
+  }
+
+  /* hero ------------------------------------------------------------- */
+  .hero {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+    margin: 0.5em 0 1em;
+
+    &__photo {
+      flex: 0 0 auto;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--global-border-color);
+    }
+
+    &__body { flex: 1 1 auto; min-width: 0; }
+
+    &__name {
+      font-family: $home-heading-font;
+      font-size: 2.4rem;
+      line-height: 1.1;
+      margin: 0 0 0.25em;
+    }
+
+    &__role {
+      font-size: 1.05rem;
+      color: var(--global-text-color-light);
+      margin: 0 0 1em;
+    }
+
+    p { margin: 0 0 0.9em; }
+  }
+
+  /* link chips ------------------------------------------------------- */
+  .chips { margin-top: 1.2em; }
+
+  .chip {
+    display: inline-block;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0.3em 0.85em;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    text-decoration: none;
+    color: var(--global-link-color);
+    border: 1px solid var(--global-dark-border-color);
+    border-radius: 4px;
+    background: transparent;
+
+    &:hover { background: var(--global-thead-color); }
+
+    &--primary {
+      color: #faf6ec;
+      background: var(--global-base-color);
+      border-color: var(--global-base-color);
+      &:hover { background: var(--global-link-color-hover); }
+    }
+  }
+
+  /* cards ------------------------------------------------------------ */
+  .card, .theme {
+    padding: 1.1em 1.3em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.45);
+    p { margin: 0 0 0.8em; }
+    p:last-child { margin-bottom: 0; }
+  }
+
+  .themes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2em;
+    margin: 0 0 1.6em;
+
+    @media (min-width: 760px) { grid-template-columns: 1fr 1fr; }
+
+    .theme { display: flex; flex-direction: column; }
+    .theme__text { flex: 1 1 auto; }
+  }
+
+  .tags {
+    display: block;
+    margin-top: 0.4em;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+
+  /* papers ----------------------------------------------------------- */
+  .paper {
+    margin: 0 0 1.9em;
+    padding-left: 1em;
+    border-left: 3px solid var(--global-border-color);
+
+    p { margin: 0 0 0.35em; }
+    .paper__role {
+      font-size: 0.93em;
+      color: var(--global-text-color-light);
+    }
+    .links { margin: 0.4em 0 0; }
+    .chip { margin-bottom: 0; padding: 0.1em 0.6em; font-size: 0.85rem; }
+  }
+
+  /* mobile ----------------------------------------------------------- */
+  @media (max-width: 640px) {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1em;
+      &__photo { width: 130px; height: 130px; }
+      &__name { font-size: 2rem; }
+    }
+    .page__content h2 { font-size: 1.55rem; }
+  }
+}
