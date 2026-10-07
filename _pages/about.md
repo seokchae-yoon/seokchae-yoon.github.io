@@ -176,7 +176,7 @@ Argues that cashierless stores relocate the observable purchase decision from ch
 
 <div class="paper" markdown="1">
 
-Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Preparing submission to Journal of Marketing.*
+Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. *Preparing submission to Journal of Marketing.* To be presented at the 2026 Workshop on Information Technologies and Systems (WITS).
 {: .paper__cite}
 
 *My role:* selected the theoretical framework (the OCC appraisal model) and developed a new prediction model, OCC-ToneNet.
@@ -209,6 +209,8 @@ Develops Structure-aware Human–AI Reciprocal Estimation (SHARE), which combine
 </div>
 
 ### Conference Presentations
+
+Park, D., Yu, W., & **Yoon, S.** (authors in alphabetical order). Designing a Trustworthy AI Artifact for Emotion Measurement in Consumer Reviews: An Appraisal Theory-Driven Concept-Bottleneck Approach. **WITS 2026** (forthcoming).
 
 Kim, K., **Yoon, S.**, Park, J., Lee, G., & Lee, D. What Algorithms Leave Behind: How Automatic Matching Reshapes Worker Capability in Ride-Hailing Platforms. **ICIS 2026** (forthcoming).
 
